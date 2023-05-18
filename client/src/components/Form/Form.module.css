@@ -1,0 +1,118 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #e1b5fa;
+    background: -moz-linear-gradient(45deg, #ecd5fa 0%, #f8d4ec 47%, #f7d7fc 100%);
+    background: -webkit-linear-gradient(45deg, #ebc9ff 0%, #fcd2ee 47%, #ebacf5 100%);
+    background: linear-gradient(45deg, #eac9fd 0%, #ffd4f1 47%, #f9ceff 100%);
+}
+
+
+.inp{
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 13em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    margin-bottom: 10px;
+}
+.inp-wrapper input:focus {
+    outline-color: lightcoral;
+  }
+
+
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #03045e;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    cursor:pointer
+   }
+   
+   .button::before,
+   .button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   .button::before {
+    left: -10px;
+    background: #f7baf7;
+   }
+   
+   .button::after {
+    right: -10px;
+    background: #ff7cde;
+   }
+   
+   .button:hover::before,
+   .button:hover::after {
+    width: 58%;
+   }
+   
+   .button:hover span {
+    color: #e0aaff;
+    transition: 0.3s;
+   }
+   
+   .button span {
+    color: #03045e;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+   }
+
+
+   .title{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    
+}
+
+.cont{
+ display: block;
+ position: relative;
+ cursor: pointer;
+ font-size: 20px;
+ user-select: none;
+ margin-bottom: 10px;
+}
+
+
+

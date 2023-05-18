@@ -1,0 +1,15 @@
+.conteiner{
+    width: 25rem;
+    height: 28rem;
+  border: transparent;
+  padding: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.conteiner:hover{
+  box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
