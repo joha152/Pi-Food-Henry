@@ -1,4 +1,4 @@
-.nav{
+.nav {
   background-color: rgb(255, 94, 129);
   box-shadow: rgb(129, 27, 64) 0px 4px 0px 0px;
   display: inline;
@@ -13,23 +13,23 @@
   justify-content: space-evenly;
   height: 45px;
   width: 100%;
- 
+
   padding-left: 6em;
- 
+
 }
 
 .button {
-  font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-letter-spacing: 0px;
-word-spacing: 2px;
-color: #000000;
-font-weight: 700;
-text-decoration: none solid rgb(68, 68, 68);
-font-style: normal;
-font-variant: small-caps;
-text-transform: none;
-   display: inline;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  display: inline;
   width: 160px;
   height: 40px;
   border-radius: 10px;
@@ -38,11 +38,11 @@ text-transform: none;
   overflow: hidden;
   transition: all 0.5s ease-in;
   z-index: 1;
-  cursor:pointer
- }
- 
- .button::before,
- .button::after {
+  cursor: pointer
+}
+
+.button::before,
+.button::after {
   content: '';
   position: absolute;
   top: 0;
@@ -52,31 +52,30 @@ text-transform: none;
   transition: all 0.5s;
   overflow: hidden;
   z-index: -1;
- }
- 
- .button::before {
+}
+
+.button::before {
   left: -10px;
   background: #f7baf7;
- }
- 
- .button::after {
+}
+
+.button::after {
   right: -10px;
   background: #ff7cde;
- }
- 
- .button:hover::before,
- .button:hover::after {
+}
+
+.button:hover::before,
+.button:hover::after {
   width: 58%;
- }
- 
- .button:hover span {
+}
+
+.button:hover span {
   color: #e0aaff;
   transition: 0.3s;
- }
- 
- .button span {
+}
+
+.button span {
   color: #03045e;
   font-size: 18px;
   transition: all 0.3s ease-in;
- }
-
+}

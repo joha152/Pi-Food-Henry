@@ -155,7 +155,7 @@ const handleNextPage = () => {
     <div className={style.card}>
         {
             currentRecipes?.map((r) => (
-                <CardContainer key={r.id} title={r.title} image={r.image} diets={r.diets} id={r.id} className={style.card} />
+                <CardContainer key={r.id} title={r.title} image={r.image} diets={r.diets} id={r.id} healthScore={r.healthScore} className={style.card} />
                 ))
                 
             }

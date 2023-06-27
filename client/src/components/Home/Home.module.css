@@ -1,92 +1,92 @@
-.contenedor{
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+.contenedor {
   width: 100%;
-     background: #e1b5fa;
-    background: -moz-linear-gradient(45deg, #f7f3fa 0%, #f3e3ee 47%, #f5e0f8 100%);
-    background: -webkit-linear-gradient(45deg, #f6e7ff 0%, #fde6f6 47%, #f9defd 100%);
-    background: linear-gradient(45deg, #e8d4f3 0%, #f7deee 47%, #eddbf0 100%);
+  background: #ffffff;
+
 
 }
 
-.name{
-    margin-top: 50px;
-    margin-left: 450px;
-    font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-letter-spacing: 0px;
-word-spacing: 2px;
-color: #000000;
-font-weight: 700;
-text-decoration: none solid rgb(68, 68, 68);
-font-style: normal;
-font-variant: small-caps;
-text-transform: none;
-margin-bottom: 50px;
+.name {
+  margin-top: 50px;
+  margin-left: 450px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 24px;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  margin-bottom: 50px;
 }
 
 .button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    letter-spacing: 0px;
-    word-spacing: 2px;
-    color: #000000;
-    font-weight: 700;
-    text-decoration: none solid rgb(68, 68, 68);
-    font-style: normal;
-    font-variant: small-caps;
-    text-transform: none;
-    display: inline-block;
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    border: 1px solid #03045e;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.5s ease-in;
-    z-index: 1;
-    cursor:pointer
-   }
-   
-   .button::before,
-   .button::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 0;
-    height: 100%;
-    transform: skew(15deg);
-    transition: all 0.5s;
-    overflow: hidden;
-    z-index: -1;
-   }
-   
-   .button::before {
-    left: -10px;
-    background: #f7baf7;
-   }
-   
-   .button::after {
-    right: -10px;
-    background: #ff7cde;
-   }
-   
-   .button:hover::before,
-   .button:hover::after {
-    width: 58%;
-   }
-   
-   .button:hover span {
-    color: #e0aaff;
-    transition: 0.3s;
-   }
-   
-   .button span {
-    color: #03045e;
-    font-size: 18px;
-    transition: all 0.3s ease-in;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #03045e;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+  cursor: pointer
 }
 
-.divBtn{
-  
+.button::before,
+.button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transform: skew(15deg);
+  transition: all 0.5s;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.button::before {
+  left: -10px;
+  background: #f7baf7;
+}
+
+.button::after {
+  right: -10px;
+  background: #ff7cde;
+}
+
+.button:hover::before,
+.button:hover::after {
+  width: 58%;
+}
+
+.button:hover span {
+  color: #e0aaff;
+  transition: 0.3s;
+}
+
+.button span {
+  color: #03045e;
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+}
+
+.divBtn {
+
   width: 100%;
   height: 80px;
   display: flex;
@@ -95,8 +95,8 @@ margin-bottom: 50px;
   justify-content: center;
 }
 
-.contenedorSelect{
-  
+.contenedorSelect {
+
   display: flex;
   justify-content: space-around;
   padding-bottom: 30px;
@@ -126,15 +126,15 @@ select {
 }
 
 
-.contpag{
-  
+.contpag {
+
   justify-content: center;
-padding-left: 230px;
+  padding-left: 230px;
 }
 
 
-.btnPyN{
-  
+.btnPyN {
+
   display: flex;
   justify-content: space-around;
   padding-bottom: 30px;
@@ -142,27 +142,28 @@ padding-left: 230px;
 
 
 .card {
- 
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 5px;
 }
 
-.comida{
+.comida {
   width: 20rem;
+  margin-top: 4rem;
 
 }
 
-.contImg{
- 
+.contImg {
+
   display: flex;
   flex-direction: wrap;
   justify-content: space-between;
   margin-top: 1rem;
 }
 
-.contenidoSearch{
+.contenidoSearch {
 
   display: flex;
   flex-direction: wrap;
